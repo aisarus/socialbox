@@ -1,0 +1,12 @@
+[
+  {
+    "id": "raid_small",
+    "when": {
+      "threat>": 0.6
+    },
+    "salience": "0.3+0.3*fear",
+    "effects": [
+      "trust-=0.1"
+    ]
+  }
+]
