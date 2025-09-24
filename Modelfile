@@ -1,0 +1,2 @@
+FROM ./models/llama3.2-3b-instruct-q4_k_m.gguf
+PARAMETER temperature 0.6

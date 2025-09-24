@@ -1,0 +1,13 @@
+{
+  "proposer": {
+    "max_options": 3
+  },
+  "critic": {
+    "weights": {
+      "risk": -0.7
+    }
+  },
+  "arbiter": {
+    "policy": "max_utility"
+  }
+}

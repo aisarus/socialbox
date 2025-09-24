@@ -1,0 +1,11 @@
+{
+  "emotions": [
+    "fear",
+    "anger",
+    "joy",
+    "trust"
+  ],
+  "update": {
+    "fear": "clamp(threat*0.6 + hunger*0.3 - guard_morale*0.4,0,1)"
+  }
+}
